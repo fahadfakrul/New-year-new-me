@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+.header {
+
+    background: url(../images/banner/banner1.png), lightgray -0.889px 0px / 100.111% 111.51% no-repeat;
+    width: 1500px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
+.banner .banner-content .banner-title {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.banner-description {
+    width: 495px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 15px 25px;
+    margin-left: 340px;
+
+}
+
+.banner-content {
+    max-width: 500px;
+
+}
+
+.banner {
+    padding: 270px 145px 330px 0px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.past-failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.past-failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+}
+
+.past-failures {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+.past-failures-content > h4{
+    margin-bottom: 15px;
+}
+.past-failure-description > p{
+    margin-bottom: 15px;
+}
+.plan-title {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about-info{
+    max-width: 60px;
+     
+}
+.about-plan > h4 {
+    margin-top: 20px;
+}
+.about-plan > p {
+    margin-top: 20px;
+}
+
+.plan-info-container{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.info-description {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
