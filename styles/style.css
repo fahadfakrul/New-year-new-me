@@ -162,7 +162,9 @@
     height: 300px;
    
 }
-
+.place::placeholder{
+    color: #FFF;
+}
 
 .banner2-title {
     max-width: 400px;
